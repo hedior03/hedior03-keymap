@@ -42,18 +42,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL,           KC_LGUI,  KC_LALT,                              SFT_T(KC_SPC),                   KC_RALT,  MO(_FN2),  MO(_FN3),  KC_LEFT,  KC_DOWN, KC_RGHT),
 
     [_FN1] = LAYOUT_ansi_67(
-        KC_ESC,     KC_BRID,  KC_BRIU,  KC_MCTL,  KC_LPAD,    RGB_VAD,    RGB_VAI,  KC_MPRV,    KC_MPLY,  KC_MNXT,  KC_MUTE,    KC_VOLD,     KC_VOLU,  _______,          _______,
-        KC_CAPS,    XXXXXXX,  XXXXXXX,  KC_LBRC,  KC_RBRC,    KC_TILD,    XXXXXXX,  KC_PGUP,    KC_HOME,  KC_END,   KC_PGDN,    XXXXXXX,     _______,  _______,          _______,
-        _______,    XXXXXXX,  XXXXXXX,  KC_LPRN,  KC_RPRN,    KC_GRV,     KC_LEFT,  KC_DOWN,    KC_UP,    KC_RGHT,  KC_EXLM,    KC_EQL,                _______,          _______,
-        _______,              XXXXXXX,  XXXXXXX,  S(KC_LBRC), S(KC_RBRC), XXXXXXX,  A(KC_BSPC), KC_BSPC,  KC_DEL,   A(KC_DEL),  G(KC_SLSH),            _______, _______,
-        _______,    _______,  _______,                                           _______,                           _______,    _______,     _______,  _______, _______, _______),
+        KC_ESC,     KC_BRID,  KC_BRIU,  KC_MCTL,  KC_LPAD,    RGB_VAD,    RGB_VAI,  KC_MPRV,    KC_MPLY,  KC_MNXT,  KC_MUTE,    KC_VOLD,     KC_VOLU,  _______,                _______,
+        KC_CAPS,    XXXXXXX,  XXXXXXX,  KC_LBRC,  KC_RBRC,    KC_TILD,    XXXXXXX,  KC_PGUP,    KC_HOME,  KC_END,   KC_PGDN,    XXXXXXX,     _______,  _______,                _______,
+        _______,    XXXXXXX,  XXXXXXX,  KC_LPRN,  KC_RPRN,    KC_GRV,     KC_LEFT,  KC_DOWN,    KC_UP,    KC_RGHT,  KC_EXLM,    KC_EQL,                _______,                _______,
+        _______,              XXXXXXX,  XXXXXXX,  S(KC_LBRC), S(KC_RBRC), XXXXXXX,  A(KC_BSPC), KC_BSPC,  KC_DEL,   A(KC_DEL),  G(KC_SLSH),            _______,    G(KC_UP),
+        _______,    _______,  _______,                                           _______,                           _______,    _______,     _______,  G(KC_LEFT), G(KC_DOWN), G(KC_RGHT)),
 
     [_FN2] = LAYOUT_ansi_67(
-        KC_CAPS,  KC_BRID,  KC_BRIU,  KC_TASK,  KC_FLXP,    RGB_VAD,    RGB_VAI, KC_MPRV,    KC_MPLY,  KC_MNXT,   KC_MUTE,    KC_VOLD,     KC_VOLU,  _______,          _______,
-        XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_LBRC,  KC_RBRC,    XXXXXXX,    XXXXXXX, KC_PGUP,    KC_HOME,  KC_END,    KC_PGDN,    XXXXXXX,     _______,  _______,          _______,
-        _______,  XXXXXXX,  XXXXXXX,  KC_LPRN,  KC_RPRN,    XXXXXXX,    KC_LEFT, KC_DOWN,    KC_UP,    KC_RGHT,   KC_EXLM,    KC_EQL,                _______,          _______,
-        _______,            XXXXXXX,  XXXXXXX,  S(KC_LBRC), S(KC_RBRC), XXXXXXX, C(KC_BSPC), KC_BSPC,  KC_DEL,    C(KC_DEL),  C(KC_SLSH),            _______, _______,
-        _______,  _______,  _______,                                           _______,                           _______,    _______,     _______,  _______, _______, _______),
+        KC_CAPS,  KC_BRID,  KC_BRIU,  KC_TASK,  KC_FLXP,    RGB_VAD,    RGB_VAI, KC_MPRV,    KC_MPLY,  KC_MNXT,   KC_MUTE,    KC_VOLD,     KC_VOLU,  _______,                _______,
+        XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_LBRC,  KC_RBRC,    XXXXXXX,    XXXXXXX, KC_PGUP,    KC_HOME,  KC_END,    KC_PGDN,    XXXXXXX,     _______,  _______,                _______,
+        _______,  XXXXXXX,  XXXXXXX,  KC_LPRN,  KC_RPRN,    XXXXXXX,    KC_LEFT, KC_DOWN,    KC_UP,    KC_RGHT,   KC_EXLM,    KC_EQL,                _______,                _______,
+        _______,            XXXXXXX,  XXXXXXX,  S(KC_LBRC), S(KC_RBRC), XXXXXXX, C(KC_BSPC), KC_BSPC,  KC_DEL,    C(KC_DEL),  C(KC_SLSH),            _______,    G(KC_UP),
+        _______,    _______,  _______,                                           _______,                           _______,    _______,   _______,  G(KC_LEFT), G(KC_DOWN), G(KC_RGHT)),
 
     [_FN3] = LAYOUT_ansi_67(
         _______, KC_F1,    KC_F2,    KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_F11,   KC_F12,   _______,                RGB_TOG,
